@@ -33,6 +33,7 @@ public class NetworkPrioritization {
                     return Integer.compare(responseTimes[a], responseTimes[b]);
                 }
                 return Integer.compare(cost[a], cost[b]);
+
             } else {
                 if (cost[a] != cost[b]) {
                     return Integer.compare(cost[a], cost[b]);
