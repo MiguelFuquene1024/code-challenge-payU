@@ -1,5 +1,6 @@
 package com.payulatam.recruiting;
 
+import com.payulatam.recruiting.service.NetworkPrioritization;
 import org.junit.Assert;
 import org.junit.Test;
 
